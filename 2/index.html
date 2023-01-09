@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(0,128,210);
+            background: linear-gradient(49deg, rgba(0,128,210,1) 0%, rgba(51,0,191,1) 44%, rgba(142,0,201,1) 100%);
+        }
+        #blok{
+            border-radius: 10px;
+            background-color:white;
+            height: 420px;
+            width: 300px;
+            position: relative;
+            top: 20%;
+            left: 40%;
+        }
+        #tytuł{
+            font-size: xx-large;
+            width: 100%;
+            height: 15%;
+            background-color: white;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+            position: relative;
+            top: 50px;
+        }
+        input{
+
+  border: none;
+  border-bottom: 2px solid lightgray;
+  background-color: white;
+  
+}
+button{
+    background: rgb(0,255,234);
+    background: linear-gradient(90deg, rgba(0,255,234,1) 0%, rgba(233,101,255,1) 50%, rgba(255,0,228,1) 100%);
+    border-radius: 40px;
+    border: 0px;
+    position: absolute;
+    top: 55%;
+    right: 15%;
+    width: 200px;
+    font-size: large;
+    color: white;
+    
+}
+#imput{
+    position: relative;
+    left: 23%;
+    top: 75px;
+    
+    }
+footer{
+    position: absolute;
+    bottom: 2%;
+    font: small;
+    right: 25%;
+    opacity: 0.5;
+}
+    </style>
+
+</head>
+<body>
+    <div id="blok">
+        <div id="tytuł">       
+ <center><p>login
+ </p></center>
+        </div>
+        <div id="menu">
+           <div id="imput"><legend>login</legend><input type="text" placeholder=" twój login"></div>
+           <div id="imput"><legend>hasło</legend><input type="password"  placeholder=" twoje hasło "></div>
+           
+           
+           <button>
+              
+               <p>logowanie</p>
+           </button>
+           
+        </div>
+        <footer>
+          <center>   <p>or sing up using for student <br>
+           SING UP</p></center>
+        </footer>
+    </div>
+</body>
+</html>
